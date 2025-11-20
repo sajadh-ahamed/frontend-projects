@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f80ff38d29.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div
+        class="section-01-nav-bar flex justify-between items-center flex-wrap pl-25 max-[768px]:pl-[30px] pr-25 max-[950px]:pr-[30px] pt-8 pb-12"
+      >
+        <div
+          class="left-section flex justify-evenly items-center gap-x-24 max-[1100px]:gap-x-[40px] and gap-y-4"
+        >
+          <div><img src="assets/Hirved.png" alt="Hirved" /></div>
+          <div class="max-[950px]:hidden"><a href="index.html" class="text-base font-bold">Home</a></div>
+          <div class="max-[950px]:hidden">
+            <a href="pricing.html" class="text-base font-bold">Pricing</a>
+          </div>
+        </div>
+        <div
+          class="right-section flex justify-evenly items-center gap-x-24 max-[1100px]:gap-x-[40px] and gap-y-4"
+        >
+          <div class="max-[950px]:hidden"><a href="#" class="text-base font-bold">Company sign in</a></div>
+          <div class="max-[950px]:hidden">
+            <button
+              class="bg-[#050A8B] p-5 text-white rounded-full py-[17px] px-[30px] font-bold"
+            >
+              Request a demo
+            </button>
+          </div>
+        </div>
+        <div class="min-[950px]:hidden"><i class="fa-solid fa-bars text-[30px]"></i></div>
+      </div>
+
+      <div class="section-02 grid grid-cols-2 max-[950px]:grid-cols-1 gap-y-4">
+
+        <div class="sec2-left pl-25 max-[550px]:pl-[20px] max-[950px]:pr-25 max-[550px]:pr-[20px] max-[950px]:flex max-[950px]:flex-col max-[950px]:justify-center max-[950px]:items-center">
+          <p class="text-6xl  max-[1025px]:text-4xl font-[500] max-[950px]:text-center max-[950px]:text-4xl">
+            Hire the best <br />
+            talent
+          </p>
+          <div class="flex-cn-sec-2 pt-8 max-[1025px]:pt-[10px] text-[#00000966] font-[600]">
+            <div class="sec2-item1 flex items-center mb-5 max-[1025px]:mb-[8px] gap-x-4 and gap-y-4">
+              <div class="sec2-check">
+                <img src="assets/akar-circle-check-fill.png" alt="check-fill" />
+              </div>
+              <div class="sec2-head">Reach out to talents</div>
+            </div>
+            <div class="sec2-item2 flex items-center mb-5 max-[1025px]:mb-[8px] gap-x-4 and gap-y-4">
+              <div class="sec2-check">
+                <img src="assets/akar-circle-check-fill.png" alt="check-fill" />
+              </div>
+              <div class="sec2-head">Manage database of talents</div>
+            </div>
+            <div class="sec2-item3 flex items-center mb-5 max-[1025px]:mb-[8px] gap-x-4 and gap-y-4">
+              <div class="sec2-check">
+                <img src="assets/akar-circle-check-fill.png" alt="check-fill" />
+              </div>
+              <div class="sec2-head">AI matching algorithm</div>
+            </div>
+            <div class="sec2-item4 flex items-center mb-5 max-[1025px]:mb-[8px] gap-x-4 and gap-y-4">
+              <div class="sec2-check">
+                <img src="assets/akar-circle-check-fill.png" alt="check-fill" />
+              </div>
+              <div class="sec2-head">Fast hiring process</div>
+            </div>
+            <div class="sec2-item5 flex items-center mb-5 max-[1025px]:mb-[8px] gap-x-4 and gap-y-4">
+              <div class="sec2-check">
+                <img src="assets/akar-circle-check-fill.png" alt="check-fill" />
+              </div>
+              <div class="sec2-head">Cost-effective hiring process</div>
+            </div>
+          </div>
+          <div>
+            <button
+              class="bg-[#050A8B] text-white rounded-full py-[17px] px-[30px] font-bold mt-8 max-[1025px]:mt-[15px]"
+            >
+              Hire the best talent
+            </button>
+          </div>
+        </div>
+
+        <div class="sec2-right max-[950px]:flex max-[950px]:justify-end">
+          <img
+            class="w-full max-[950px]:w-[90%]"
+            src="assets/Company dashboard.jpg"
+            alt="sec2-img"
+          />
+        </div>
+      </div>
+
+      <div
+        class="section-03 flex flex-col justify-center items-center pt-8 text-center pt-24"
+      >
+        <p class="text-4xl font-bold pb-4 max-[950px]:px-[20px]">
+          Trusted by over 500 great businesses
+        </p>
+        <p class="text-sm text-[#00000966] font-semibold max-[950px]:px-[20px]">
+          Here are few list of companies ready to hire using HIRVED platform to
+          reach out to talent, manage <br />
+          talents and employ wisely.
+        </p>
+        <div
+          class="sec3-grid-container grid grid-cols-4 max-[950px]:grid-cols-2 max-[650px]:grid-cols-1 gap-x-[25px] gap-y-[20px] pt-12 px-[100px] max-[950px]:px-[50px] max-[376px]:px-[20px]"
+        >
+          <div
+            class="item-1 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Starbucks.png" alt="i1" />
+          </div>
+          <div
+            class="item-2 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Pepsi.png" alt="i2" />
+          </div>
+          <div
+            class="item-3 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Walmart.png" alt="i3" />
+          </div>
+          <div
+            class="item-4 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Azendoo.png" alt="i4" />
+          </div>
+          <div
+            class="item-5 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/CNN.png" alt="i5" />
+          </div>
+          <div
+            class="item-6 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Philips.png" alt="i6" />
+          </div>
+          <div
+            class="item-7 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Pizza Hut.png" alt="i7" />
+          </div>
+          <div
+            class="item-8 flex justify-center items-center bg-[rgba(235,234,237,0.4)] px-[30px] py-[20px] max-[950px]:w-[250px] max-[950px]:h-[150px] rounded-lg"
+          >
+            <img src="assets/Beanstalk.png" alt="i8" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section-04 grid grid-cols-2 max-[925px]:grid-cols-1 gap-y-[50px] w-full pt-24">
+        <div
+          class="sec4-topic flex flex-col justify-center items-center gap-[20px]"
+        >
+          <div>
+            <p class="text-[52px] max-[1024px]:text-[36px] font-[500] max-[1200px]:text-[44px] max-[925px]:text-[52px] max-[600px]:text-[42px] max-[376px]:text-[32px]">
+              Filter and <br />
+              reachout to <br />
+              amazing talents
+            </p>
+          </div>
+          <div
+            class="sec4-backdrop w-[400px] max-[1200px]:w-[350px] max-[500px]:w-[250px] h-[8px] bg-[#050A8B] blur-xl"
+          ></div>
+        </div>
+        <div class="sec4-img-box relative flex justify-end">
+          <div class="sec4-main-img -z-1">
+            <img
+              class="w-[550px] max-[1200px]:w-[450px] max-[1024px]:w-[400px] max-[925px]:w-[500px] max-[700px]:w-[400px] max-[600px]:w-[350px] max-[500px]:w-[300px] max-[405px]:w-[250px] max-[360px]:w-[220px] relative right-0"
+              src="assets/Frame 120552.png"
+              alt="Main-img"
+            />
+          </div>
+          <div
+            class="sec4-2nd-img absolute top-[150px] max-[1200px]:top-[130px] max-[700px]:top-[110px] max-[500px]:top-[80px] max-[400px]:top-[60px] right-[170px] max-[1300px]:right-[100px] max-[600px]:right-[80px] max-[530px]:right-[50px] max-[460px]:right-[40px] w-[580px] max-[1200px]:w-[480px] max-[1024px]:w-[430px] max-[925px]:w-[580px] max-[700px]:w-[480px] max-[600px]:w-[400px] max-[500px]:w-[350px] max-[405px]:w-[300px] max-[360px]:w-[270px]"
+          >
+            <img
+              class="shadow-[0_4.57px_28.57px_0px_rgba(0,0,0,0.25)] rounded-lg z-10"
+              src="assets/Group 23.png"
+              alt="card"
+            />
+            <button
+              class="sec4-2nd-img-btn absolute text-[12px] bottom-[5px] right-[10px] py-[10px] px-[15px] bg-[#050A8B] text-white rounded-xl"
+            >
+              Chat Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-05 grid grid-cols-2 max-[925px]:grid-cols-1 gap-y-[60px] pt-24">
+        <div class="left-sec5 relative">
+          <div><img src="assets/Frame-02-120552.png" class="max-[1250px]:w-[500px] max-[1024px]:w-400px max-[925px]:w-500px max-[700px]:w-[400px] max-[550px]:w-[320px] max-[465px]:w-[250px] max-[360px]:w-[220px]" alt="frame-02-img" /></div>
+          <div
+            class="w-[450px] max-[1250px]:w-[370px] max-[1024px]:w-[320px] max-[925px]:w-[400px] max-[700px]:w-[300px] max-[550px]:w-[250px] max-[465px]:w-[200px] max-[360px]:w-[170px] h-[350px] max-[1250px]:h-300px] max-[1024px]:h-[300px] max-[925px]:h-[350px] max-[700px]:h-[280px] max-[550px]:h-[250px] max-[465px]:h-[200px] max-[360px]:h-[170px] bg-black text-white absolute top-[85px] max-[1250px]:top-[65px] max-[1024px]:top-[90px] max-[925px]:top-[70px] max-[550px]:top-[30px] left-[200px] max-[1250px]:left-[180px] max-[1024px]:left-[220px] max-[550px]:left-[150px] max-[426px]:left-[110px] rounded-[50px] max-[360px]:rounded-[30px] flex flex-col justify-center items-center gap-x-[60px] gap-y-[30px]"
+          >
+            <div class="text-center">
+              <div class="text-[2.5rem] max-[1024px]:text-[2rem] max-[925px]:text-[2.5rem] max-[700px]:text-[1.6rem] 
+              max-[465px]:text-[1.1rem] max-[360px]:text-[1rem] font-[600]">Let's start!</div>
+              <div class="text-[1.8rem] max-[1024px]:text-[1.3rem] max-[925px]:text-[1.8rem] max-[700px]:text-[1.2rem] max-[465px]:text-[0.9rem] max-[360px]:text-[0.8rem] text-[#FFFFFF8F]">
+                Creating or adding new <br />
+                tasks couldn't be easier
+              </div>
+            </div>
+
+            <div>
+              <a
+                href="#"
+                class="bg-[#050A8B] text-4xl max-[1024px]:text-[32px] max-[550px]:text-[24px] max-[465px]:text-[17px] max-[360px]:text-[15px] font-[600] py-[20px] max-[1024px]:py-[15px] max-[360px]:py-[12px] px-[50px] max-[1024px]:px-[35px] max-[360px]:px-[25px] rounded-[25px]"
+                >+ Post a job</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="right-sec5 flex flex-col justify-center items-center gap-[20px]"
+        >
+          <div>
+            <p class="text-6xl max-[1250px]:text-5xl max-[1024px]:text-4xl max-[925px]:text-6xl max-[550px]:text-[32px] text-[600]">
+              Let thousands of <br />
+              talents reach out <br />
+              to you
+            </p>
+          </div>
+          <div
+            class="sec5-dropshadow w-[460px] max-[550px]:w-[360px] max-[500px]:w-[250px] h-[10px] bg-[#050A8B] blur-xl"
+          ></div>
+        </div>
+      </div>
+
+      <div class="section-06 px-[50px] py-[60px]">
+        <div
+          class="main-box bg-black text-white flex max-[950px]:flex-wrap gap-x-[10px] gap-y-[40px] justify-between items-center rounded-[50px] py-[100px] max-[426px]:py-[50px] max-[376px]:py-[40px] px-[200px] max-[426px]:px-[50px] max-[1250px]:px-[50px] max-[376px]:px-[20px]"
+        >
+          <div>
+            <div>
+              <p class="text-[14px] font-[600] text-[#FFFFF966]">
+                For Companies
+              </p>
+            </div>
+            <div>
+              <p class="text-4xl max-[376px]:text-[30px] font-[600] pt-[10px]">
+                Hire great talents with HIRVED
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <a
+                href="#"
+                class="bg-[#050A8B] py-[20px] px-[30px] rounded-[50px] text-[1rem]"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="section-07 bg-[#050A8B] px-[200px] max-[920px]:px-[100px] max-[768px]:px-[40px] pt-[100px] pb-[200px] text-white flex justify-between gap-x-[10px] max-[550px]:gap-x-[50px] gap-y-[80px] max-[550px]:flex-wrap"
+      >
+        <div class="item-1">
+          <div class="pb-[25px]">
+            <img src="assets/Group 13 -2.png" alt="f-logo" />
+          </div>
+          <div>
+            <p>
+              Explore the job pool and <br />
+              get hired faster with our AI <br />
+              and machine learning <br />
+              algorithm
+            </p>
+          </div>
+        </div>
+        <div class="item-2">
+          <div class="pb-[25px]"><p>Product</p></div>
+          <div>
+            <p>Talents</p>
+            <p>Pricing</p>
+          </div>
+        </div>
+        <div class="item-3">
+          <div class="pb-[25px]"><p>Work</p></div>
+          <div><p>Blog</p></div>
+        </div>
+        <div class="item-4">
+          <div class="pb-[25px]"><p>Stuff</p></div>
+          <div>
+            <p>Privacy</p>
+            <p>Support</p>
+          </div>
+        </div>
+        <div class="item-5">
+          <div><p>English</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
