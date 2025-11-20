@@ -1,0 +1,791 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.entire {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    height: 100vh;
+    position: relative;
+}
+
+.login_side {
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    z-index: 2;
+    margin-right: -50px;
+}
+
+.backround_wallpaper {
+    position: relative;
+    z-index: 1;
+}
+
+.bg_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+
+.input1 {
+    background-color: #F1F1F1;
+    border: none;
+    width: 400px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 14px;
+    outline: none;
+}
+input[type="password"] {
+    background-image: url('ASSETS/visible-icon.png'); 
+    background-position: calc(100% - 20px) center; 
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-right: 40px; 
+}
+
+
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 205px;
+    font-size: 12px;
+    color: #606060;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sign_in {
+    width: 400px;
+    height: 60px;
+    background-color: #FF451C;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: medium;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: none;
+    border-top: 1px solid #606060;
+    text-align: center;
+    width: 55%;
+}
+
+legend {
+    font-size: 10px;
+    color: #606060;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+.google {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: #ffffff;
+    color: #606060;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: medium;
+}
+
+.google img {
+    height: 24px;
+    width: 24px;
+}
+
+.section7 {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: small;
+    color: #606060;
+}
+
+@media screen and (min-width: 728px) and (max-width: 1024px) {
+
+    .login_side {
+        background-color: rgb(255, 255, 255);
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        position: relative;
+        z-index: 2;
+        margin-right: -35px;
+    }
+    
+    .backround_wallpaper {
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .bg_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .section1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        margin-top: 10px;
+    }
+    
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .input1 {
+        background-color: #F1F1F1;
+        border: none;
+        width: 350px;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 14px;
+        outline: none;
+    }
+    input[type="password"] {
+        background-image: url('ASSETS/visible-icon.png'); 
+        background-position: calc(100% - 20px) center; 
+        background-repeat: no-repeat;
+        background-size: 15px;
+        padding-right: 40px; 
+    }
+    
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 150px;
+        font-size: 12px;
+        color: #606060;
+    }
+    
+    .section4 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .sign_in {
+        width: 350px;
+        height: 50px;
+        background-color: #FF451C;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-size: medium;
+    }
+    
+    .section5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    fieldset {
+        border: none;
+        border-top: 1px solid #606060;
+        text-align: center;
+        width: 72%;
+    }
+    
+    legend {
+        font-size: 10px;
+        color: #606060;
+    }
+    
+    .section6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        margin-top: 10px;
+
+    }
+    
+    .google {
+        width: 350px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        background-color: #ffffff;
+        color: #606060;
+        border-radius: 20px;
+        border: 1px solid;
+        font-size: medium;
+    }
+    
+    .google img {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .section7 {
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: small;
+        color: #606060;
+    }
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .backround_wallpaper {
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .bg_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .section1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .input1 {
+        background-color: #F1F1F1;
+        border: none;
+        width: 280px;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 14px;
+        outline: none;
+    }
+    input[type="password"] {
+        background-image: url('ASSETS/visible-icon.png'); 
+        background-position: calc(100% - 20px) center; 
+        background-repeat: no-repeat;
+        background-size: 15px;
+        padding-right: 40px; 
+    }
+    
+    
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        font-size: 12px;
+        color: #606060;
+    }
+    
+    .section4 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .sign_in {
+        width: 280px;
+        height: 50px;
+        background-color: #FF451C;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-size: medium;
+    }
+    
+    .section5 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    fieldset {
+        border: none;
+        border-top: 1px solid #606060;
+        text-align: center;
+        width: 55%;
+    }
+    
+    legend {
+        font-size: 10px;
+        color: #606060;
+    }
+    
+    .section6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        margin-top: 5px;
+    
+    }
+    
+    .google {
+        width: 280px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        background-color: #ffffff;
+        color: #606060;
+        border-radius: 20px;
+        border: 1px solid;
+        font-size: medium;
+    }
+    
+    .google img {
+        height: 24px;
+        width: 24px;
+    }
+    
+    .section7 {
+        position: relative;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        font-size: small;
+        color: #606060;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    
+    .entire {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section1 img {
+        height: 40px;
+   
+        filter: brightness(10); 
+    }
+    
+
+    .section1 p {
+        color: white !important;;
+    }
+
+    .backround_wallpaper {
+        position: absolute;
+        width: 100vh;
+        height: 100vh;
+    }
+
+
+    .login_side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: transparent;
+        border-radius: 0;
+        margin-right: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .backround_wallpaper {
+        background-image: url('ASSETS/mobile_bg.png')!important;
+        background-size: cover; 
+        background-position: center;
+        width: 100%;
+        height: 100vh; 
+    }
+    
+    .bg_image {
+        display: none; 
+    }
+    
+
+    .section1,
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+
+    .section2 {
+        row-gap: 20px;
+        margin-top: 10px;
+    }
+
+    .input1 {
+        background-color: white;
+        opacity: 0.5; 
+        border: none;
+        width: 300px; 
+        height: 60px;
+        padding-left: 20px;
+        border-radius: 14px;
+        outline: none;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: space-between; 
+        margin-left: 10px;
+        column-gap: 65px;
+        font-size: 12px;
+        color:#F1F1F1;
+        position: relative;
+        top: 5px;
+    }
+    .input1 {
+        background-color: rgba(255, 255, 255, 0.5) !important; 
+        outline: none;
+    }
+    
+    .section2 input::placeholder {
+        color: white;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -25px;
+    }
+
+    .sign_in {
+        width: 300px; 
+        height: 60px;
+        background-color: #FF451C;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-size: medium;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .section5 {
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        color:#FFFFFF;
+        opacity: 50%;
+    }
+
+    fieldset {
+        border: none;
+        border-top: 1px solid white;
+        text-align: center;
+        width: 265px;
+
+    }
+
+    legend {
+        font-size: 10px;
+        color: white;
+    }
+
+    .section6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .google {
+        width: 300px; 
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        background-color: transparent;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid;
+        font-size: medium;
+        position: relative;
+        top: 20px;
+    }
+
+    .google img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .section7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        color: white;
+        position: relative;
+        top: 15px;
+    }
+
+
+@media screen and (max-width:320px) {
+
+    .entire {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
+    .section1 img {
+        height: 40px;
+        filter: brightness(10); 
+    }
+    
+
+    .section1 p {
+        color: white !important;;
+    }
+
+    .backround_wallpaper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .login_side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: transparent;
+        border-radius: 0;
+        margin-right: 0;
+    }
+
+    .bg_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .section1,
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 10px;
+    }
+
+    .section2 {
+        row-gap: 20px;
+        margin-top: 10px;
+    }
+
+    .input1 {
+        background-color: white;
+        opacity: 0.5; 
+        border: none;
+        width: 250px; 
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 14px;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: center; 
+        margin-left: 10px;
+        column-gap: 45px;
+        font-size: 12px;
+        color:#F1F1F1;
+        position: relative;
+        top: 5px;
+    }
+    .input1 {
+        background-color: rgba(255, 255, 255, 0.5) !important; 
+        outline: none;
+    }
+    
+    .section2 input::placeholder {
+        color: white;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    
+    
+
+    .section4 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -25px;
+    }
+
+    .sign_in {
+        width: 250px; 
+        height: 50px;
+        background-color: #FF451C;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-size: medium;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .section5 {
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        color:#FFFFFF;
+        opacity: 50%;
+    }
+
+    fieldset {
+        border: none;
+        border-top: 1px solid white;
+        text-align: center;
+        width: 225px;
+
+    }
+
+    legend {
+        font-size: 10px;
+        color: white;
+    }
+
+    .section6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .google {
+        width: 250px; 
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        background-color: transparent;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid;
+        font-size: medium;
+        position: relative;
+        top: 20px;
+    }
+
+    .google img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .section7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+        color: white;
+        position: relative;
+        top: 15px;
+    }
+
+
+}
+
+}

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url("assets/sky.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;       /*  hide the horizontal  bar*/
+    position: relative;
+}
+
+.road {
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url("assets/road.jpg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: road 5s linear infinite; /*  linear means speed type infinite means unlimit*/
+}
+
+@keyframes road {
+    100% {
+        transform: translatex(-3400px); 
+    }
+}
+
+/* At the end (100%) of the animation
+Move the element to left side by 3400 pixels 
+Using translateX(-3400px). */
+
+.city {
+    height: 300px;
+    width: 500%;
+    display: block;
+    background-image: url("assets/city.png");
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city {
+    100% {
+        transform: translatex(-1400px);
+    }
+}
+
+.car {
+    left: 50%;
+    width: 400px;
+    position: absolute;
+    bottom: 100px;
+    z-index: 5;
+    transform: translateX(-50%);
+}
+
+.car img {
+    width: 100%;
+}
+
+.wheel {
+    left: 50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 8;
+}
+
+.wheel img {
+    width: 73px;
+    height: 73px;
+    animation: wheel 1s linear infinite;
+}
+
+.backwheel {
+    position: absolute;
+    left: -165px;
+}
+
+.frontwheel {
+    position: absolute;
+    left: 80px;
+}
+
+
+@keyframes wheel {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .road {
+        height: 150px;
+        width: 1000%;
+    }
+
+    .city {
+        height: 250px;
+        width: 500%;
+        bottom: 150px;
+    }
+    .car {
+        width: 300px;
+    }
+    .wheel img {
+        width: 55px;
+        height: 55px;
+        animation: wheel 1s linear infinite;
+    }
+    
+    .backwheel {
+        position: absolute;
+        left: -125px;
+        top: 20px;
+    }
+    
+    .frontwheel {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .road {
+        height: 100px;
+        width: 1500%;
+    }
+
+    .city {
+        width: 500%;
+        bottom: 100px;
+    }
+    .car {
+        width: 200px;
+        bottom: 70px;
+    }
+    .wheel img {
+        width: 32px;
+        height: 32px;
+        animation: wheel 1s linear infinite;
+    }
+    
+    .backwheel {
+        position: absolute;
+        left: -80px;
+        top: 67px;
+    }
+    
+    .frontwheel {
+        position: absolute;
+        left: 42px;
+        top: 67px;
+    }
+
+}

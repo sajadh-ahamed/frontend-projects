@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(173, 131, 131);
+    height: 60px;
+    padding-bottom: 14px;;
+}
+
+.dog{
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+
+.home{
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 7px;
+    border-color: rgb(244, 235, 235);
+    border-style: solid; 
+    border-width: 2px;
+    background-color:transparent;
+    color: white;
+}
+.about, .menu, .contact {
+    margin-left: 230px;
+    padding: 10px;
+    width: 120px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgb(255, 236, 207);
+    border-width: 2px; 
+    background-color: transparent;
+    color: white;
+}
+
+.section1{
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.firstpara{
+    margin-right: 240px;
+    margin-left: 40px;
+    text-align: justify;
+}
+.smabout{
+    color:  rgb(218, 146, 146);
+    margin-left: 40px;
+
+}
+.image-container {
+    display: inline-block;
+    margin-left: 700px;
+    height: 300px; 
+    width: 100%; 
+}
+
+img {
+    width: 280px;
+    height: 250px;
+}
+.form{
+
+    margin-left: 700px;
+}
+td{
+    padding: 10px;
+}
+.td1 {
+    padding: 5px;
+}
+
+.td1 input {
+    width: 400px; 
+    height: 40px; 
+    border-style:solid;
+    padding: 10px;
+    border-radius: 7px;
+    border-color: rgb(200, 196, 196);
+
+}
+.button input{
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+}
+footer{
+    background-color: rgb(152, 142, 142);   
+    height: 250px;
+}
+ footer .userarea, .shoppingguide, .sitemap{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 2px solid black;
+    width: 200px;
+    padding-left: 10px;
+    border-color: wheat;
+    background-color:  rgb(173, 131, 131);
+    height: 200px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+footer .userarea{
+margin-left: 200px;
+}
+footer .shoppingguide{
+    margin-left: 290px;
+    }
+footer .sitemap{
+        margin-left: 290px;
+    }
+
+
